@@ -1,0 +1,31 @@
+WhatWeb report for [1m[34mhttp://tecshuttle.com[0m
+Status    : 200 OK
+Title     : [1m[33mWebsite coming soon - tecshuttle.com[0m
+IP        : <Unknown>
+Country   : [1m[31m<Unknown>[0m
+
+Summary   : [1m[37mMeta-Author[0m[[37mKonrad Fuchs[0m], [1m[37mJQuery[0m, [1m[37mModernizr[0m[[1m[32m2.6.2.min[0m], [1m[37mHTTPServer[0m[[1m[36mLiteSpeed[0m], [1m[37mOpen-Graph-Protocol[0m, [1m[37mHTML5[0m, [1m[37mLiteSpeed[0m, [1m[37mScript[0m, [1m[37mX-UA-Compatible[0m[[37mIE=edge[0m]
+
+Detected Plugins:
+[ [1m[37mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ [1m[37mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : [1m[36mLiteSpeed[0m (from server string)
+
+[ [1m[37mJQuery[0m ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ [1m[37mLiteSpeed[0m ]
+	LiteSpeed web server, which is able to read Apache 
+	configuration directly and used together with web hosting 
+	control panels by replacing Apache 
+
