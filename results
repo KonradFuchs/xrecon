@@ -79,3 +79,92 @@ PORT      STATE  SERVICE
 13782/tcp open   netbackup
 31337/tcp open   Elite
 32774/tcp open   sometimes-rpc11
+
+----- DIRS -----
+
+
+----- WEB -----
+
+WhatWeb report for [1m[34mhttp://tecshuttle.com[0m
+Status    : 200 OK
+Title     : [1m[33mWebsite coming soon - tecshuttle.com[0m
+IP        : <Unknown>
+Country   : [1m[31m<Unknown>[0m
+
+Summary   : [1m[37mMeta-Author[0m[[37mKonrad Fuchs[0m], [1m[37mJQuery[0m, [1m[37mModernizr[0m[[1m[32m2.6.2.min[0m], [1m[37mHTTPServer[0m[[1m[36mLiteSpeed[0m], [1m[37mOpen-Graph-Protocol[0m, [1m[37mHTML5[0m, [1m[37mLiteSpeed[0m, [1m[37mScript[0m, [1m[37mX-UA-Compatible[0m[[37mIE=edge[0m]
+
+Detected Plugins:
+[ [1m[37mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ [1m[37mHTTPServer[0m ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : [1m[36mLiteSpeed[0m (from server string)
+
+[ [1m[37mJQuery[0m ]
+	A fast, concise, JavaScript that simplifies how to traverse 
+	HTML documents, handle events, perform animations, and add 
+	AJAX. 
+
+	Website     : http://jquery.com/
+
+[ [1m[37mLiteSpeed[0m ]
+	LiteSpeed web server, which is able to read Apache 
+	configuration directly and used together with web hosting 
+	control panels by replacing Apache 
+
+
+[ [1m[37mMeta-Author[0m ]
+	This plugin retrieves the author name from the meta name 
+	tag - info: 
+	http://www.webmarketingnow.com/tips/meta-tags-uncovered.html
+	#author
+
+	String       : [1m[36mKonrad Fuchs[0m
+
+[ [1m[37mModernizr[0m ]
+	Modernizr adds classes to the <html> element which allow 
+	you to target specific browser functionality in your 
+	stylesheet. You don't actually need to write any Javascript 
+	to use it. [JavaScript] 
+
+	Version      : [1m[32m2.6.2.min[0m
+	Website     : http://www.modernizr.com/
+
+[ [1m[37mOpen-Graph-Protocol[0m ]
+	The Open Graph protocol enables you to integrate your Web 
+	pages into the social graph. It is currently designed for 
+	Web pages representing profiles of real-world things . 
+	things like movies, sports teams, celebrities, and 
+	restaurants. Including Open Graph tags on your Web page, 
+	makes your page equivalent to a Facebook Page. 
+
+
+[ [1m[37mScript[0m ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+
+[ [1m[37mX-UA-Compatible[0m ]
+	This plugin retrieves the X-UA-Compatible value from the 
+	HTTP header and meta http-equiv tag. - More Info: 
+	http://msdn.microsoft.com/en-us/library/cc817574.aspx 
+
+	String       : [1m[36mIE=edge[0m
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Connection: close
+	Content-Type: text/html
+	Last-Modified: Tue, 18 Aug 2020 13:38:31 GMT
+	Etag: "eb9-5f3bd9d7-e152b30425fa2aec;gz"
+	Accept-Ranges: bytes
+	Content-Encoding: gzip
+	Vary: Accept-Encoding
+	Content-Length: 1309
+	Date: Sun, 23 Aug 2020 22:16:50 GMT
+	Server: LiteSpeed
+	
