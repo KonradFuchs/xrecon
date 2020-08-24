@@ -1,0 +1,7 @@
+ ----- DATE -----
+Mon 24 Aug 2020 02:22:54 PM CEST
+ ----- TARGET -----
+127.0.0.1
+ ----- NMAP -----
+PORT     STATE SERVICE
+631/tcp  open  ipp

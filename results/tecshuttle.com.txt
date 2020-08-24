@@ -1,6 +1,8 @@
-
------ NMAP -----
-
+ ----- DATE -----
+Mon 24 Aug 2020 01:57:44 PM CEST
+ ----- TARGET -----
+tecshuttle.com
+ ----- NMAP -----
 PORT      STATE  SERVICE
 20/tcp    closed ftp-data
 21/tcp    open   ftp
@@ -80,10 +82,10 @@ PORT      STATE  SERVICE
 31337/tcp open   Elite
 32774/tcp open   sometimes-rpc11
 
------ DIRS -----
+ ----- DIRS -----
 
 
------ WEB -----
+ ----- WEB -----
 
 WhatWeb report for [1m[34mhttp://tecshuttle.com[0m
 Status    : 200 OK
@@ -165,6 +167,6 @@ HTTP Headers:
 	Content-Encoding: gzip
 	Vary: Accept-Encoding
 	Content-Length: 1309
-	Date: Sun, 23 Aug 2020 22:16:50 GMT
+	Date: Mon, 24 Aug 2020 11:59:32 GMT
 	Server: LiteSpeed
 	

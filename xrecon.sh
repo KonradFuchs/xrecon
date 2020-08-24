@@ -1,15 +1,20 @@
 #!/bin/bash
-
+res="results.txt"
 if [ -z "$1" ]
 then
-        echo "Usage: ./xrecon.sh <IP>"
+        printf "Usage: ./xrecon.sh <IP>\n"        
         exit 1
 fi
+printf " ----- DATE -----\n" > res
+date >> res
 
-printf "\n----- NMAP -----\n\n" > results
+printf " ----- TARGET -----\n" >> res
+printf "$1" >> res
+
+printf "\n ----- NMAP -----\n" >> res
 
 echo "Running Nmap..."
-nmap $1 | tail -n +5 | head -n -3 >> results
+nmap $1 | tail -n +5 | head -n -3 >> res
 
 while read line
 do
@@ -21,20 +26,24 @@ do
         echo "Running WhatWeb..."
         whatweb $1 -v > temp2
         fi
-done < results
+done < res
 
 if [ -e temp1 ]
 then
-        printf "\n----- DIRS -----\n\n" >> results
-        cat temp1 >> results
+        printf "\n ----- DIRS -----\n\n" >> res
+        cat temp1 >> res
         rm temp1
 fi
 
 if [ -e temp2 ]
 then
-    printf "\n----- WEB -----\n\n" >> results
-        cat temp2 >> results
+    printf "\n ----- WEB -----\n\n" >> res
+        cat temp2 >> res
         rm temp2
 fi
 
-cat results
+cat res
+./scripts/mv.sh
+whoami > urname
+printf " ----- END -----\n"
+rm urname
